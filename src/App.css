@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'montseratt', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  background: url('./assets/1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  color:#fff;
+  
+  
+}
+main{
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+}
+
+.mainClass{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  align-content: row;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1{
+  margin:0;
+  margin-bottom: .5rem;
+}
+
+.input{
+  border: 1px solid #333;
+  border-radius: .3rem;
+  padding: .25rem;
+  width: 7em;
+  -webkit-border-radius: .3rem;
+  -moz-border-radius: .3rem;
+  -ms-border-radius: .3rem;
+  -o-border-radius: .3rem;
+}
+
+select{
+  margin-left: .5rem;
+}
+
+.equals{
+  font-weight: bold;
+  font-size:2rem;
+}
